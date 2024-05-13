@@ -18,10 +18,14 @@ export default {
   data() {
     return {
       links: [
-        { to: "/home", name: "Pokemons" },
-        { to: "/pokemondid/151", name: "Pokemons por id" },
-        { to: "/about", name: "Pokemons About" },
-        { to: "https://www.google.es/", name: "Google" },
+        { to: "pokemon-home", name: "Pokemons" },
+        { to: "pokemon-id", name: "Por ID", id: 151 },
+        { to: "pokemon-about", name: "About" },
+
+        { to: "dbz-characters", name: "Personajes" },
+        { to: "dbz-about", name: "DBZ-About" },
+
+        { to: "https://google.com", name: "Google" },
       ],
     };
   },
